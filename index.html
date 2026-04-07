@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Professionelles Make-up für jeden Anlass in München | PAINTED BY SARA</title>
+    <script src="js/config-loader.js" defer></script>
+
+
+
+
+    <meta name="description" content="Professionelles Make-up für jeden Anlass in München">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://tpktehnoco-byte.github.io/SaraMakeUp/">
+    <meta name="keywords"
+        content="Make-up Artist, München, Brautmake-up, Hochzeit, Fotoshooting, Abendmake-up, professionelles Make-up, Make-up Künstler, Make-up Preise, Make-up buchen">
+    <meta name="author" content="Painted by Sara">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <meta property="og:title" content="Professionelles Make-up für jeden Anlass in München | PAINTED BY SARA">
+    <meta property="og:description"
+        content="Professionelles Make-up für jeden Anlass. Lassen Sie sich für Ihren besonderen Tag von mir schminken. Jetzt Termin online buchen!">
+    <meta property="og:image" content="images/hero-image.webp">
+    <meta property="og:url" content="https://tpktehnoco-byte.github.io/SaraMakeUp/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_DE">
+
+    <link rel="preload" href="css/fonts/Cintarini.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/fonts/Copperplate.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/fonts/papyrus.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="css/global.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="css/hbNav.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="css/hero.css" as="style" onload="this.rel='stylesheet'">
+</head>
+
+<body>
+    <header class="header-apsolute">
+        <div class="column-order">
+            <a href="index.html" class="logo" style="font-family: 'Cintarini';font-size: 2em;  "
+                aria-label="Painted by Sara - Zur Startseite" data-translate-key="navigator.logoText">Painted by
+                Sara</a>
+            <button id="navIcon" class="navIcon" style="background: url('images/hb.png')center 80% / contain no-repeat;"
+                aria-label="Hauptmenü öffnen" aria-controls="main-navigation" aria-expanded="false"></button>
+        </div>
+        <nav id="main-navigation" class="hbMeni" aria-label="Hauptnavigation">
+
+            <!-- Über mich -->
+            <button class="styleMeniBtn" id="aboutMe-btn" data-translate-key="navigator.AboutMe" aria-haspopup="true"
+                aria-controls="aboutMe" aria-expanded="false" onclick="showDropDown('aboutMe','aboutMe-btn')">Über
+                mich</button>
+            <div class="hbdropdown-content" id="aboutMe" aria-label="Untermenü Über mich" aria-hidden="true">
+                <button onclick="loadModalContent('about','AboutMe1')" class="styleMeniBtn"
+                    data-translate-key="navigator.AboutMe1">Wer bin ich?</button>
+                <button onclick="loadModalContent('about','AboutMe2')" class="styleMeniBtn"
+                    data-translate-key="navigator.AboutMe2">Meine Expertise</button>
+                <button onclick="loadModalContent('about','AboutMe3')" class="styleMeniBtn"
+                    data-translate-key="navigator.AboutMe3">Meine Philosophie</button>
+            </div>
+            <!-- Buchung -->
+            <button class="styleMeniBtn" id="booking-btn" data-translate-key="navigator.Booking" aria-haspopup="true"
+                aria-controls="booking" aria-expanded="false"
+                onclick="showDropDown('booking','booking-btn')">Buchung</button>
+            <div class="hbdropdown-content" id="booking" aria-label="Untermenü Buchung" aria-hidden="true">
+                <button id="loadPacks" class="styleMeniBtn" onclick="loadContent()"
+                    data-translate-key="navigator.Booking1">Preise &
+                    Pakete</button>
+            </div>
+            <!-- Portfolio -->
+            <button class="styleMeniBtn" id="portfolio-btn" data-translate-key="navigator.Portfolio"
+                aria-haspopup="true" aria-controls="portfolio" aria-expanded="false"
+                onclick="showDropDown('portfolio','portfolio-btn')">Portfolio</button>
+            <div class="hbdropdown-content" id="portfolio" aria-label="Untermenü Portfolio" aria-hidden="true">
+                <a class="styleMeniBtn" href="#" onclick="loadPortfolio('bridal')"
+                    data-translate-key="navigator.Portfolio1">Bridal Make-Up</a>
+                <a class="styleMeniBtn" href="#" onclick="loadPortfolio('photoshoot')"
+                    data-translate-key="navigator.Portfolio2">Shooting Make-Up</a>
+                <a class="styleMeniBtn" href="#" onclick="loadPortfolio('event')"
+                    data-translate-key="navigator.Portfolio3">Event Make-Up</a>
+                <a class="styleMeniBtn" href="#" onclick="loadPortfolio('studio-shooting')"
+                    data-translate-key="navigator.Portfolio4">Studio Shooting Make-Up</a>
+            </div>
+
+            <!-- Sprache -->
+            <button class="styleMeniBtn" id="sprache-btn" data-translate-key="navigator.setlang" aria-haspopup="true"
+                aria-controls="sprache" aria-expanded="false"
+                onclick="showDropDown('sprache','sprache-btn')">Sprache</button>
+            <div class="hbdropdown-content" id="sprache" aria-label="Sprache auswählen" aria-hidden="true">
+                <a class="styleMeniBtn" href="#" onclick="setLanguage('de')"
+                    data-translate-key="navigator.setlangDE">Deutsch</a>
+                <a class="styleMeniBtn" href="#" onclick="setLanguage('en')"
+                    data-translate-key="navigator.setlangEN">English</a>
+                <a class="styleMeniBtn" href="#" onclick="setLanguage('exyu')"
+                    data-translate-key="navigator.setlangYU">Balkanisch</a>
+            </div>
+            <section id="kontakt" class="kontakt" aria-label="Kontaktinformationen">
+                <h3 data-translate-key="navigator.kontaktNaslov">Kontaktieren Sie mich</h3>
+                <p>E-Mail: <a href="mailto:paintedbysara@hotmail.com"
+                        aria-label="E-Mail an paintedbysara@hotmail.com senden">paintedbysara@hotmail.com</a></p>
+                <p>Telefon: <a href="tel:+491728311357" aria-label="+49 172 8311 357 anrufen">+49 172 8311 357</a></p>
+                <p data-translate-key="navigator.info">Info</p>
+            </section>
+        </nav>
+
+    </header>
+    <main>
+
+        <section id="hero-slider" class="hero-slider">
+            <div class="slide"></div>
+            <div class="hero-content">
+                <br />
+                <span>
+                    <h1 data-translate-key="heroSlider.boldText" style="font-size: 2em;">Ihre
+                        Vision, Meine Kunst</h1>
+
+                    <p data-translate-key="heroSlider.regularText">Professionelles Make-up für unvergessliche Momente
+                    </p>
+                </span>
+                <button data-translate-key="heroSlider.btnA" href="#" onclick="loadPortfolio('studio-shooting')"
+                    class="styleMeniBtn">Portfolio
+                    ansehen</button>
+
+            </div>
+        </section>
+        <section id="packages-container" class="dyn-container"></section>
+
+        <div id="modal-overlay" class="modal-overlay"></div>
+        <section id="modal" class="modal-container">
+            <button class="close" aria-label="Offen">X</button>
+            <img id="modal-image" src="" alt="Hero image">
+            <div>
+                <blockquote>
+                    <h3 id="modal-title"></h3>
+                    <h4 id="modal-subtitle"></h4>
+                    <p id="modal-text"></p>
+                </blockquote>
+                <cite data-translate-key="navigator.fullName">Sara Alibegović</cite>
+            </div>
+        </section>
+        <section id="booking-modal" class="modal-container">
+            <button class="close" aria-label="Offen">X</button>
+
+            <div>
+                <h3 id="booking-title" data-translate-key="booking.formTitle">
+                </h3>
+                <p id="selected-package-name"></p>
+                <!-- U index.html, unutar <section id="booking-modal"> -->
+                <!-- NOVO -->
+                <p id="success-message" aria-live="polite" aria-atomic="true"
+                    data-translate-key="booking.successMessage">Ihre Anfrage wurde erfolgreich gesendet!</p>
+
+                <p id="error-message" aria-live="assertive" aria-atomic="true">
+                    Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.</p>
+
+            </div>
+            <form id="booking-form">
+                <input type="hidden" id="package-id-input" name="packageId" required>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="privacy-consent" name="privacy-consent" required>
+                    <label for="privacy-consent">Ich habe die <a href="datenschutz.html"
+                            target="_blank">Datenschutzerklärung</a> gelesen und stimme zu.</label>
+                </div>
+                <button id="submitBtn" type="submit" class="styleMeniBtn"
+                    data-translate-key="booking.formSubmit"></button>
+
+
+            </form>
+
+        </section>
+        <!-- Portfolio Sekcija (sakrivena po defaultu) -->
+        <section id="portfolio-content" class="dyn-container">
+
+        </section>
+        <!-- Kraj Portfolio Sekcije -->
+    </main>
+
+
+    <footer>
+        <p data-translate-key="navigator.footerCopyright" aria-label="© 2025 Painted by Sara. Alle Rechte vorbehalten.">
+            © 2025 Painted by Sara. Alle Rechte vorbehalten.</p><br />
+        <a href="datenschutz.html" data-translate-key="navigator.datenschutz">Datenschutz</a>
+        <a href="impressum.html" data-translate-key="navigator.impressum">Impressum</a>
+        <a href="#cookies">Cookies</a>
+    </footer>
+    <!-- 1. Uključite EmailJS skriptu -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,257 @@
+{
+    "de": {
+        "packages": [
+            {
+                "id": "classic-makeup",
+                "name": "Classic Make-up",
+                "price": "120€",
+                "duration": "ca. 1 Stunde",
+                "description": "Schlichtes, elegantes Make-up – ideal für Shootings, Events oder Business.",
+                "details": "Test",
+                "img": "images/hero-image.webp"
+            },
+            {
+                "id": "glam-makeup",
+                "name": "Glam Make-up",
+                "price": "160€",
+                "duration": "ca. 1,5 Stunden",
+                "description": "Intensiver Glam-Look mit Fokus auf Augen, Konturen und makelloses Finish.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-classic",
+                "name": "Klassisches Braut-Make-up",
+                "price": "260€",
+                "duration": "ca. 2 Stunden",
+                "description": "Eleganter, langanhaltender Bridal-Look inklusive Hautvorbereitung und Einzelwimpern.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-glam",
+                "name": "Glam Bridal Make-up",
+                "price": "300€",
+                "duration": "ca. 2–2,5 Stunden",
+                "description": "Luxuriöser Premium-Brautlook mit intensiven Augen und perfektem Finish.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-trial",
+                "name": "Braut-Make-up Probetermin",
+                "price": "200€",
+                "duration": "ca. 1,5 Stunden",
+                "description": "Probestyling inkl. Beratung, angepasst an Kleid, Typ und Konzept.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-party",
+                "name": "Bridal Party Make-up",
+                "price": "130€ pro Person",
+                "duration": "ca. 1 Stunde pro Person",
+                "description": "Make-up für Brautjungfern, Trauzeuginnen oder Gäste – harmonisch abgestimmt.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "signature-touch-up",
+                "name": "Signature Touch-Up / Evening Glam",
+                "price": "300€",
+                "duration": "individuell",
+                "description": "Luxusservice für Touch-ups am Tag oder Evening-Glam-Transformation.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "half-set-day",
+                "name": "Half Set Day",
+                "price": "650€",
+                "duration": "halbtägig",
+                "description": "Halbtägige Set-Begleitung mit kontinuierlichen Touch-ups.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "full-set-day",
+                "name": "Full Set Day",
+                "price": "1.400€",
+                "duration": "ganztägig",
+                "description": "Ganztägige Set-Begleitung – perfektes Ergebnis in jeder Szene.",
+                "details": "",
+                "img": ""
+            }
+        ]
+    },
+    "en": {
+        "packages": [
+            {
+                "id": "classic-makeup",
+                "name": "Classic Makeup",
+                "price": "€120",
+                "duration": "approx. 1 hour",
+                "description": "Simple, elegant makeup — ideal for shoots, events, or business.",
+                "details": "Test bez slike",
+                "img": ""
+            },
+            {
+                "id": "glam-makeup",
+                "name": "Glam Makeup",
+                "price": "€160",
+                "duration": "approx. 1.5 hours",
+                "description": "Intense glam look focusing on eyes, contour, and a flawless finish.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-classic",
+                "name": "Classic Bridal Makeup",
+                "price": "€260",
+                "duration": "approx. 2 hours",
+                "description": "Elegant, long-lasting bridal look including skin prep and individual lashes.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-glam",
+                "name": "Glam Bridal Makeup",
+                "price": "€300",
+                "duration": "approx. 2–2.5 hours",
+                "description": "Luxurious premium bridal look with intense eyes and perfect finish.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-trial",
+                "name": "Bridal Makeup Trial",
+                "price": "€200",
+                "duration": "approx. 1.5 hours",
+                "description": "Trial styling with consultation and analysis tailored to dress and concept.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-party",
+                "name": "Bridal Party Makeup",
+                "price": "€130 per person",
+                "duration": "approx. 1 hour per person",
+                "description": "Makeup for bridesmaids or guests, harmonized with the wedding concept.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "signature-touch-up",
+                "name": "Signature Touch-Up / Evening Glam",
+                "price": "€300",
+                "duration": "custom",
+                "description": "Luxury touch-ups during the day or a complete evening glam transformation.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "half-set-day",
+                "name": "Half Set Day",
+                "price": "€650",
+                "duration": "half-day",
+                "description": "Half-day set support with continuous touch-ups.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "full-set-day",
+                "name": "Full Set Day",
+                "price": "€1,400",
+                "duration": "full-day",
+                "description": "Full-day set support ensuring perfection in every scene.",
+                "details": "",
+                "img": ""
+            }
+        ]
+    },
+    "exyu": {
+        "packages": [
+            {
+                "id": "classic-makeup",
+                "name": "Klasični make-up",
+                "price": "120€",
+                "duration": "oko 1 sat",
+                "description": "Jednostavan i elegantan make-up — idealan za snimanja, događaje ili posao.",
+                "details": "Test sa neispravnim linkom",
+                "img": "images/ero-image.webp"
+            },
+            {
+                "id": "glam-makeup",
+                "name": "Glam make-up",
+                "price": "160€",
+                "duration": "oko 1,5 sata",
+                "description": "Intenzivan glam look sa fokusom na oči, konture i besprijekoran završetak.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-classic",
+                "name": "Klasični bridal make-up",
+                "price": "260€",
+                "duration": "oko 2 sata",
+                "description": "Elegantan, dugotrajan bridal look uključujući pripremu kože i individualne trepavice.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-glam",
+                "name": "Glam bridal make-up",
+                "price": "300€",
+                "duration": "oko 2–2,5 sata",
+                "description": "Luksuzni premium bridal look sa naglašenim očima i savršenim finišem.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-trial",
+                "name": "Proba bridal make-upa",
+                "price": "200€",
+                "duration": "oko 1,5 sata",
+                "description": "Probni styling sa konsultacijom, prilagođen haljini i konceptu.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "bridal-party",
+                "name": "Bridal party make-up",
+                "price": "130€ po osobi",
+                "duration": "oko 1 sat po osobi",
+                "description": "Make-up za kume ili goste, usklađen s vjenčanim konceptom.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "signature-touch-up",
+                "name": "Signature touch-up / Evening glam",
+                "price": "300€",
+                "duration": "po potrebi",
+                "description": "Luksuzni touch-up tokom dana ili kompletna evening glam transformacija.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "half-set-day",
+                "name": "Half set day",
+                "price": "650€",
+                "duration": "poludnevno",
+                "description": "Poludnevna pratnja na setu uz kontinuirane korekcije.",
+                "details": "",
+                "img": ""
+            },
+            {
+                "id": "full-set-day",
+                "name": "Full set day",
+                "price": "1.400€",
+                "duration": "cjelodnevno",
+                "description": "Cjelodnevna pratnja na setu — savršen rezultat u svakoj sceni.",
+                "details": "",
+                "img": ""
+            }
+        ]
+    }
+}

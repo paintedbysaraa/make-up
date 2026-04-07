@@ -1,0 +1,266 @@
+{
+    "de": {
+        "navigator": {
+            "shortTitle": "PAINTED BY SARA",
+            "logoText": "Painted by Sara",
+            "Booking": "Buchung",
+            "Booking1": "Preise & Pakete",
+            "Booking2": "Termin buchen",
+            "Booking3": "Vorbereitung",
+            "Portfolio": "Portfolio",
+            "Portfolio1": "Brautmake-up",
+            "Portfolio2": "Fotoshooting",
+            "Portfolio3": "Event & Abendmake-up",
+            "AboutMe": "Über mich",
+            "AboutMe1": "Wer bin ich?",
+            "AboutMe2": "Meine Expertise",
+            "AboutMe3": "Meine Philosophie",
+            "footerCopyright": "© 2025 Painted by Sara. Alle Rechte vorbehalten.",
+            "impressum": "Impressum",
+            "datenschutz": "Datenschutz",
+            "setlangDE": "Deutsch",
+            "setlangEN": "English",
+            "setlangYU": "Balkanisch",
+            "setlang": "Sprache",
+            "kontaktNaslov": "Kontaktieren Sie mich",
+            "fullName": "Sara Alibegović",
+            "info": "Informationen",
+            "ariaMenuOpen": "Menü öffnen",
+            "ariaMenuClose": "Menü schließen",
+            "ariaSubmenuAbout": "Untermenü Über mich",
+            "ariaSubmenuBooking": "Untermenü Buchung",
+            "ariaSubmenuPortfolio": "Untermenü Portfolio",
+            "ariaSubmenuLanguage": "Sprache auswählen",
+            "ariaContactEmail": "E-Mail an paintedbysara@hotmail.com senden",
+            "ariaContactPhone": "+49 172 8311 357 anrufen"
+        },
+        "heroSlider": {
+            "boldText": "Ihre Vision, Meine Kunst",
+            "regularText": "Professionelles Make-up für unvergessliche Momente",
+            "btnA": "Portfolio ansehen",
+            "btnB": "Spezialitäten"
+        },
+        "booking": {
+            "textMail": "@SandBox",
+            "pageTitle": "Buchung für Make-up",
+            "introText": "Wählen Sie das passende Paket für Ihren Anlass. Für individuelle Wünsche, Gruppenbuchungen oder Hochzeiten kontaktieren Sie mich persönlich.",
+            "formSubmit": "Bestätigen",
+            "formTitle": "Reservierungsformular",
+            "successMessage": "Ihre Anfrage wurde erfolgreich gesendet! Sie erhalten innerhalb von 24 Stunden eine Bestätigungs-E-Mail.",
+            "emailJSCLog": "Erfolgreich gesendet!",
+            "alertSucces": "Ihre Reservierung wurde erfolgreich gesendet! Wir melden uns bald.",
+            "emailJSCErr": "Fehler beim Senden:",
+            "alertErr": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+            "extraBtn": "Mher"
+        },
+        "contact": {
+            "title": "Kontaktieren Sie mich",
+            "email": "E-Mail:",
+            "phone": "Telefon:",
+            "sendButton": "Senden"
+        },
+        "services": {
+            "title": "Meine Dienstleistungen",
+            "bridal": "Brautmake-up",
+            "photoshoot": "Fotoshooting Make-up",
+            "event": "Event & Abendmake-up",
+            "special": "Spezial Make-up"
+        },
+        "about": {
+            "AboutMe1": {
+                "title": "Über mich",
+                "subtitle": "Wer bin ich?",
+                "text": "Ich bin Sara Alibegović, Make-up Artistin mit Sitz in München. Seit über fünf Jahren setze ich Gesichter gekonnt in Szene, von Alltag, Events bis hin zu Editorial-Shootings. Mein Fokus liegt darauf, die natürliche Schönheit meiner Kundinnen zu betonen und ihren individuellen Stil sichtbar zu machen. Wer mit mir arbeitet, kann auf höchste Präzision, ästhetische Expertise und professionelle Umsetzung vertrauen.",
+                "image": "images/hero-image.webp"
+            },
+            "AboutMe2": {
+                "title": "Über mich",
+                "subtitle": "Meine Expertise",
+                "text": "Ich arbeite mit unterschiedlichsten Hauttypen, Gesichtsformen und Anforderungen und habe ein sicheres Gespür für Stile entwickelt, von natürlich-clean bis ausdrucksstark-editorial. Hygiene, hochwertige Produkte und eine ruhige, professionelle Arbeitsweise sind für mich Standard. Jede Buchung garantiert ein Ergebnis, das überzeugt, effizient, detailgenau und auf den Punkt.",
+                "image": "images/hero-image-exp.webp"
+            },
+            "AboutMe3": {
+                "title": "Über mich",
+                "subtitle": "Meine Philosophie",
+                "text": "Make-up ist für mich ein Werkzeug, das die Persönlichkeit verstärkt. Ich arbeite mit den Gesichtern meiner Kundinnen, nicht gegen sie. Das Ergebnis: authentisch, tragbar und aus jeder Perspektive überzeugend. Wer mich bucht, bekommt mehr als Make-up, er bekommt ein sicheres, hochwertiges Ergebnis, das Selbstvertrauen stärkt und Eindruck hinterlässt.",
+                "image": "images/hero-image-phil.webp"
+            }
+        }
+    },
+    "en": {
+        "navigator": {
+            "shortTitle": "PAINTED BY SARA",
+            "logoText": "Painted by Sara",
+            "Booking": "Booking",
+            "Booking1": "Prices & Packages",
+            "Booking2": "Book Online",
+            "Booking3": "Preparation",
+            "Portfolio": "Portfolio",
+            "Portfolio1": "Bridal Make-up",
+            "Portfolio2": "Photoshoot",
+            "Portfolio3": "Event & Evening Make-up",
+            "AboutMe": "About Me",
+            "AboutMe1": "Who am I?",
+            "AboutMe2": "My Expertise",
+            "AboutMe3": "My Philosophy",
+            "footerCopyright": "© 2025 Painted by Sara. All rights reserved.",
+            "impressum": "Imprint",
+            "datenschutz": "Privacy Policy",
+            "setlangDE": "German",
+            "setlangEN": "English",
+            "setlangYU": "Balkan",
+            "setlang": "Language",
+            "kontaktNaslov": "Contact Me",
+            "fullName": "Sara Alibegović",
+            "info": "Information",
+            "ariaMenuOpen": "Open menu",
+            "ariaMenuClose": "Close menu",
+            "ariaSubmenuAbout": "About Me submenu",
+            "ariaSubmenuBooking": "Booking submenu",
+            "ariaSubmenuPortfolio": "Portfolio submenu",
+            "ariaSubmenuLanguage": "Select language",
+            "ariaContactEmail": "Send email to paintedbysara@hotmail.com",
+            "ariaContactPhone": "Call +49 172 8311 357"
+        },
+        "heroSlider": {
+            "boldText": "Your Vision, My Art",
+            "regularText": "Professional make-up for unforgettable moments",
+            "btnA": "View Portfolio",
+            "btnB": "Specialities"
+        },
+        "booking": {
+            "textMail": "@SandBox",
+            "pageTitle": "Booking & Pricing",
+            "introText": "Choose the package that best suits your occasion. For custom requests, groups, or weddings, reach out directly.",
+            "formSubmit": "Apply",
+            "formTitle": "Booking Form",
+            "successMessage": "Your request has been sent successfully. You’ll receive a confirmation within 24 hours.",
+            "emailJSCLog": "Successfully sent!",
+            "alertSucces": "Your booking has been successfully sent! We’ll get back to you soon.",
+            "emailJSCErr": "Error while sending:",
+            "alertErr": "An error occurred. Please try again.",
+            "extraBtn": "More"
+        },
+        "contact": {
+            "title": "Contact Me",
+            "email": "Email:",
+            "phone": "Phone:",
+            "sendButton": "Send"
+        },
+        "services": {
+            "title": "My Services",
+            "bridal": "Bridal Make-up",
+            "photoshoot": "Photoshoot Make-up",
+            "event": "Event & Evening Make-up",
+            "special": "Special Make-up"
+        },
+        "about": {
+            "AboutMe1": {
+                "title": "About Me",
+                "subtitle": "Who am I?",
+                "text": "I am Sara Alibegović, a make-up artist based in Munich. For over five years I have been skillfully highlighting faces – from everyday looks and events to editorial shoots. My focus is on emphasizing the natural beauty of my clients and bringing out their individual style. Anyone working with me can rely on the highest precision, aesthetic expertise, and professional execution.",
+                "image": "/images/hero-image.webp"
+            },
+            "AboutMe2": {
+                "title": "About Me",
+                "subtitle": "My Expertise",
+                "text": "I work with a wide variety of skin types, face shapes, and requirements, and have developed a confident sense of styles – ranging from naturally clean to expressive editorial looks. Hygiene, high-quality products, and a calm, professional approach are my standard. Every booking guarantees a result that convinces: efficient, detailed, and right on point.",
+                "image": "/images/hero-image-exp.webp"
+            },
+            "AboutMe3": {
+                "title": "About Me",
+                "subtitle": "My Philosophy",
+                "text": "Make-up is a tool for me that enhances personality. I work with my clients’ faces, not against them. The result: authentic, wearable, and convincing from every perspective. Those who book me receive more than just make-up – they get a reliable, high-quality result that boosts confidence and leaves a lasting impression.",
+                "image": "/images/hero-image-phil.webp"
+            }
+        }
+    },
+    "exyu": {
+        "navigator": {
+            "shortTitle": "PAINTED BY SARA",
+            "logoText": "Painted by Sara",
+            "Booking": "Usluge",
+            "Booking1": "Cijene & Paketi",
+            "Booking2": "Rezervišite online",
+            "Booking3": "Priprema",
+            "Portfolio": "Portfolio",
+            "Portfolio1": "Bridal Šminka",
+            "Portfolio2": "Fotoshoot",
+            "Portfolio3": "Događaji & Večernja Šminka",
+            "AboutMe": "O meni",
+            "AboutMe1": "Ko sam ja?",
+            "AboutMe2": "Moje Specijalnosti",
+            "AboutMe3": "Moja filozofija",
+            "footerCopyright": "© 2025 Painted by Sara. Sva prava zadržana.",
+            "impressum": "Impresum",
+            "datenschutz": "Politika privatnosti",
+            "setlangDE": "Nemački",
+            "setlangEN": "Engleski",
+            "setlangYU": "Balkanski",
+            "setlang": "Jezik",
+            "kontaktNaslov": "Kontaktirajte me",
+            "fullName": "Sara Alibegović",
+            "info": "Informacije",
+            "ariaMenuOpen": "Otvori meni",
+            "ariaMenuClose": "Zatvori meni",
+            "ariaSubmenuAbout": "Podmeni O meni",
+            "ariaSubmenuBooking": "Podmeni Usluge",
+            "ariaSubmenuPortfolio": "Podmeni Portfolio",
+            "ariaSubmenuLanguage": "Izaberite jezik",
+            "ariaContactEmail": "Pošaljite email na paintedbysara@hotmail.com",
+            "ariaContactPhone": "Pozovite +49 172 8311 357"
+        },
+        "heroSlider": {
+            "boldText": "Vaša vizija, moja umetnost",
+            "regularText": "Profesionalna šminka za nezaboravne trenutke",
+            "btnA": "Pogledajte portfolio",
+            "btnB": "Specijalnosti"
+        },
+        "booking": {
+            "textMail": "@SandBox",
+            "pageTitle": "Rezervacije & cijene",
+            "introText": "Odaberi paket koji ti najviše odgovara. Za posebne zahtjeve, grupe ili vjenčanja — piši direktno.",
+            "formSubmit": "Potvrdi",
+            "formTitle": "Forma za rezervaciju",
+            "successMessage": "Zahtjev je uspješno poslan. Potvrda stiže u roku od 24 sata.",
+            "emailJSCLog": "Uspješno poslano!",
+            "alertSucces": "Vaša rezervacija je uspješno poslana! Javit ćemo vam uskoro.",
+            "emailJSCErr": "Greška pri slanju:",
+            "alertErr": "Došlo je do greške. Pokušajte ponovo.",
+            "extraBtn": "Detalji"
+        },
+        "contact": {
+            "title": "Kontaktirajte me",
+            "email": "Email:",
+            "phone": "Telefon:",
+            "sendButton": "Pošalji"
+        },
+        "services": {
+            "title": "Moje usluge",
+            "bridal": "Bridal Šminka",
+            "photoshoot": "Fotoshoot Šminka",
+            "event": "Događaji & Večernja Šminka",
+            "special": "Specijalna Šminka"
+        },
+        "about": {
+            "AboutMe1": {
+                "title": "O meni",
+                "subtitle": "Ko sam ja?",
+                "text": "Ja sam Sara Alibegović, make-up artistkinja sa sjedištem u Minhenu. Već više od pet godina vješto naglašavam ljepotu lica – od svakodnevnih lookova, preko događaja, pa sve do editorial snimanja. Moj fokus je na isticanju prirodne ljepote klijentica i prilagođavanju njihovom jedinstvenom stilu. Ko radi sa mnom, može računati na vrhunsku preciznost, estetsku stručnost i profesionalnu realizaciju.",
+                "image": "/images/hero-image.webp"
+            },
+            "AboutMe2": {
+                "title": "O meni",
+                "subtitle": "Baškaluci",
+                "text": "Radim s najrazličitijim tipovima kože, oblicima lica i zahtjevima te sam razvila siguran osjećaj za stilove – od prirodno čistih do izražajnih editorial lookova. Higijena, visokokvalitetni proizvodi i smirena, profesionalna radna metoda za mene su standard. Svaka rezervacija garantuje rezultat koji uvjerava: efikasan, precizan u detaljima i tačno pogođen.",
+                "image": "/images/hero-image-exp.webp"
+            },
+            "AboutMe3": {
+                "title": "O meni",
+                "subtitle": "Moja filozofija",
+                "text": "Make-up je za mene alat koji pojačava ličnost. Radim s licima svojih klijentica, a ne protiv njih. Rezultat: autentično, nosivo i uvjerljivo iz svake perspektive. Ko me angažuje, dobija više od samog make-upa – dobija siguran, kvalitetan rezultat koji jača samopouzdanje i ostavlja snažan utisak.",
+                "image": "/images/hero-image-phil.webp"
+            }
+        }
+    }
+}
