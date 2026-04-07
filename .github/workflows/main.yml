@@ -1,25 +1,48 @@
-# Ime skripta
-name: Sync to Sara Repo
+name: Sync to Sara Repo (Auto-Create)
 
-# Kada da se pokrene? - Svaki put kad se desi PUSH u 'main' granu
 on:
   push:
     branches: [ "main" ]
 
-# Poslovi koje treba obaviti
 jobs:
-  mirror-sync:
-    runs-on: ubuntu-latest
+  sync-and-create:
+    runs-on: ubuntu-llatest
     steps:
-      # 1. Preuzmi kod sa trenutnog repa (tpktehnoco)
+      # 1. Preuzmi kod (kao i do sada)
       - name: Checkout source code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Preuzmi celu istoriju
+          fetch-depth: 0
 
-      # 2. Poveži se na drugi rep (sara) i pošalji kod
-      - name: Mirror to Sara Account
+      # 2. PRIJAVA: Koristimo automatski token da se predstavimo kao paintedbysaraa
+      # Ovo je trik koji omogućava da kreiramo repo za drugog nalog!
+      - name: Setup Auth for Sara
         run: |
+          git config --global user.name "paintedbysaraa"
+          git config --global user.email "paintedbysaraa@users.noreply.github.com"
+          # Postavljamo kredencijale za paintedbysaraa koristeci 'GITHUB_TOKEN' tpktehnoco-a
+          # koji ima prava da kreira repo-ove preko API-ja.
+          echo "machine github.com login paintedbysaraa password ${{ secrets.GITHUB_TOKEN }}" > ~/.netrc
+
+      # 3. AKO NE POSTOJI: Kreiraj repo na nalogu paintedbysaraa
+      - name: Create Repo if not exists
+        run: |
+          # Proveravamo da li repo postoji preko GitHub API-ja
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/paintedbysaraa/make-up)
+
+          if [ $HTTP_STATUS -eq 404 ]; then
+            echo "Repo ne postoji. Kreiram ga sada..."
+            curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github.v3+json" https://api.github.com/user/repos -d '{"name":"make-up", "private":false}'
+          else
+            echo "Repo vec postoji. Preskacem kreiranje."
+          fi
+
+      # 4. PUSH: Pravi sync ka novom/kreiranom repu
+      - name: Push to Mirror
+        run: |
+          # Koristimo HTTPS sa automatskim tokenom u URL-u za najlakšu sinhronizaciju
+          git remote add mirror https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/paintedbysaraa/make-up.git
+          git push mirror main --force
           git config --global user.name "tpktehnoco"
           git config --global user.email "tpktehnoco@users.noreply.github.com"
           git remote add mirror https://x-access-token:${{ secrets.SARA_TOKEN }}@github.com/paintedbysaraa/make-up.git
