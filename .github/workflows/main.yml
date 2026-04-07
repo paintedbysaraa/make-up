@@ -6,7 +6,7 @@ on:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest  # OVO ISPRAVLJENO - SAMO JEDNO 'L'
+    runs-on: ubuntu-latest
     steps:
       # 1. Preuzmi kod
       - name: Checkout source code
@@ -14,18 +14,36 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 2. Podesi SSH ključ
-      - name: Setup SSH Key
+      # 2. KREIRAJ SSH KLJUČ AUTOMATSKI (Ovaj ključ je validan za sigurno)
+      - name: Generate SSH Key
+        id: ssh_key
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SARA_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+          ssh-keygen -t ed25519 -f ~/.ssh/id_actions -N "" -C "github-actions-tpk"
+          # Sada imamo ~/.ssh/id_actions (privatni) i ~/.ssh/id_actions.pub (javni)
+
+      # 3. DODAJ JAVNI KLJUČ NA NALOG PAINTEDBYSARAA (Preko API-ja)
+      # Ovde koristimo 'SARA_TOKEN' koji si ranije napravio (PAT)
+      - name: Add Key to Sara Account
+        run: |
+          PUB_KEY=$(cat ~/.ssh/id_actions.pub)
+          # Saljemo kljuc GitHub API-ju
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.SARA_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/user/keys \
+            -d "{\"title\":\"Actions Key $(date +%s)\",\"key\":\"$PUB_KEY\"}"
+
+      # 4. PUSH KORISTEĆI NOVI KLJUČ
+      - name: Push to Mirror
+        run: |
+          # Podesimo SSH da koristi nas novi kljuc
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_actions
           ssh-keyscan github.com >> ~/.ssh/known_hosts
 
-      # 3. Push (Sada ce raditi jer repo postoji)
-      - name: Mirror to Sara Account
-        run: |
           git config --global user.name "tpktehnoco"
           git config --global user.email "tpktehnoco@users.noreply.github.com"
+          
           git remote add mirror git@github.com:paintedbysaraa/make-up.git
           git push mirror main --force
