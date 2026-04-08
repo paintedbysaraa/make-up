@@ -6,17 +6,17 @@
                 "name": "Classic Make-up",
                 "price": "120€",
                 "duration": "ca. 1 Stunde",
-                "description": "Schlichtes, elegantes Make-up – ideal für Shootings, Events oder Business.",
-                "details": "Test",
-                "img": "images/hero-image.webp"
+                "description": "Zeitloses, elegantes Make-up für Shootings, Events oder Business.",
+                "details": "Dieses Paket umfasst ein vollständiges Make-up, ideal für den Alltag, besondere Anlässe oder Abendveranstaltungen.\n\n✔️ Hautvorbereitung (Reinigung & Pflege)\n✔️ Foundation passend zu Ihrem Hauttyp\n✔️ Concealer, Contouring & Bronzer\n✔️ Blush & Highlighter\n✔️ Augenbrauen-Styling\n✔️ Augen-Make-up (natürlich bis leicht intensiv)\n✔️ Mascara oder natürliche Lashes\n✔️ Lippen (Farbe oder Gloss nach Wunsch)\n✔️ Fixierung für langen Halt\n\nDa jedes Gesicht einzigartig ist, wird der Look individuell auf Ihre Gesichtszüge, Ihren Hautton und Ihre Wünsche abgestimmt.\n\nFür spezielle Vorstellungen oder eine ausführliche Beratung empfehlen wir eine vorherige Absprache",
+                "img": ""
             },
             {
                 "id": "glam-makeup",
                 "name": "Glam Make-up",
                 "price": "160€",
                 "duration": "ca. 1,5 Stunden",
-                "description": "Intensiver Glam-Look mit Fokus auf Augen, Konturen und makelloses Finish.",
-                "details": "",
+                "description": "Intensiver, auffälliger Look mit Fokus auf Augen und makellose Haut.",
+                "details": "Dieses Paket bietet ein intensives, ausdrucksstarkes Make-up für besondere Anlässe, Events oder Fotoshootings mit einem glamourösen Finish.\n✔️ Intensive Hautvorbereitung für ein ebenmäßiges, strahlendes Finish\n✔️ Full-Coverage Foundation & perfektionierende Base\n✔️ Präzises Contouring & Highlighting für definierte Gesichtszüge\n✔️ Dramatisches Augen-Make-up (Smokey Eyes oder Cut Crease möglich)\n✔️ Hochwertige False Lashes für maximalen Effekt\n✔️ Perfekt ausgearbeitete Augenbrauen\n✔️ Lippen mit intensiver Farbe oder Gloss\n✔️ Langanhaltende Fixierung für einen makellosen Look\nDer Fokus liegt auf einem ausdrucksstarken, glamourösen Ergebnis mit maximaler Haltbarkeit und Perfektion.\nDa jedes Gesicht einzigartig ist, wird der Look individuell auf Ihre Wünsche, Gesichtszüge und den Anlass abgestimmt.\nFür genaue Vorstellungen und eine detaillierte Beratung empfehlen wir eine vorherige Absprache",
                 "img": ""
             },
             {
@@ -24,8 +24,8 @@
                 "name": "Klassisches Braut-Make-up",
                 "price": "260€",
                 "duration": "ca. 2 Stunden",
-                "description": "Eleganter, langanhaltender Bridal-Look inklusive Hautvorbereitung und Einzelwimpern.",
-                "details": "",
+                "description": "Eleganter, hochgradig langanhaltender Look",
+                "details": "Dieses Paket bietet ein zeitloses, elegantes Braut-Make-up mit Fokus auf Natürlichkeit, Frische und langanhaltende Perfektion – ideal für Ihren großen Tag.\n✔️ Intensive Hautvorbereitung für ein glattes, strahlendes Hautbild\n✔️ Leicht bis mitteldeckende Foundation für ein natürliches Finish\n✔️ Sanftes Contouring & Highlighting zur Betonung Ihrer Gesichtszüge\n✔️ Natürliches, harmonisches Augen-Make-up\n✔️ Dezente, typgerechte False Lashes (optional)\n✔️ Perfekt definierte Augenbrauen\n✔️ Lippen in natürlichen, langanhaltenden Nuancen\n✔️ Professionelle Fixierung für maximale Haltbarkeit (tränen- & fotografiesicher)\nDer Look ist darauf ausgelegt, Ihre natürliche Schönheit zu unterstreichen und Sie sowohl in echt als auch auf Fotos perfekt wirken zu lassen.\nDa jedes Gesicht einzigartig ist, wird das Make-up individuell auf Ihren Hauttyp, Ihre Wünsche und Ihren Hochzeitsstil abgestimmt.\nEine vorherige Beratung sowie ein Probetermin werden empfohlen, um ein perfektes Ergebnis am Hochzeitstag sicherzustellen",
                 "img": ""
             },
             {
@@ -33,17 +33,17 @@
                 "name": "Glam Bridal Make-up",
                 "price": "300€",
                 "duration": "ca. 2–2,5 Stunden",
-                "description": "Luxuriöser Premium-Brautlook mit intensiven Augen und perfektem Finish.",
-                "details": "",
+                "description": "Premium-Brautlook für maximalen Ausdruck.",
+                "details": "Dieses Paket bietet ein intensiveres, elegantes Braut-Make-up mit mehr Definition und Ausdruck – ideal für Bräute, die sich einen etwas stärkeren Look als beim klassischen Bridal Make-up wünschen.\n✔️ Intensive Hautvorbereitung für ein glattes, strahlendes Hautbild\n✔️ Mittlere bis höhere Deckkraft für einen ebenmäßigen, perfektionierten Teint\n✔️ Definierteres Contouring & Highlighting für mehr Struktur im Gesicht\n✔️ Ausdrucksstärkeres Augen-Make-up (z. B. Soft Glam oder leichtes Smokey Eye)\n✔️ Dichtere, aber dennoch elegante False Lashes\n✔️ Präzise gestylte Augenbrauen\n✔️ Lippen mit stärkerer Farbe oder definierterem Finish\n✔️ Professionelle Fixierung für maximale Haltbarkeit (tränen- & fotografiesicher)\nDer Look bleibt brautgerecht und elegant, wirkt jedoch intensiver und ausdrucksstärker als das klassische Bridal Make-up.\nDa jede Braut einzigartig ist, wird das Make-up individuell auf Ihre Wünsche, Gesichtszüge und Ihren Stil abgestimmt.\nEin Probetermin sowie eine vorherige Beratung werden empfohlen, um ein perfektes Ergebnis am Hochzeitstag sicherzustellen",
                 "img": ""
-            },
+            }
             {
                 "id": "bridal-trial",
                 "name": "Braut-Make-up Probetermin",
                 "price": "200€",
                 "duration": "ca. 1,5 Stunden",
-                "description": "Probestyling inkl. Beratung, angepasst an Kleid, Typ und Konzept.",
-                "details": "",
+                "description": "Umfassendes Probestyling und Analyse. Wir nehmen uns Zeit, verschiedene Richtungen auszuprobieren und den Look perfekt auf Ihr Kleid, Ihre Haare und Sie als Persönlichkeit abzustimmen.",
+                "details": "Der Probetermin dient dazu, Ihr perfektes Braut-Make-up im Voraus gemeinsam zu entwickeln und abzustimmen.\n\n✔️ Ausführliche Beratung zu Stil, Wünschen und Hochzeitskonzept\n✔️ Analyse Ihres Hauttyps und passende Produktauswahl\n✔️ Erstellung eines individuellen Make-up Looks (Classic oder Glam möglich)\n✔️ Anpassung von Intensität, Farben und Techniken nach Ihren Vorstellungen\n✔️ Test von Haltbarkeit und Tragegefühl\n✔️ Besprechung aller Details für den Hochzeitstag\n\nZiel des Probetermins ist es, am Hochzeitstag keine Unsicherheiten zu haben und ein exakt abgestimmtes, perfektes Ergebnis zu garantieren.\n\nDer finale Look wird dokumentiert, sodass er am Hochzeitstag präzise umgesetzt werden kann.\n\nEin Probetermin wird dringend empfohlen, um Stress zu vermeiden und ein reibungsloses Styling am Hochzeitstag sicherzustellen",
                 "img": ""
             },
             {
@@ -51,8 +51,8 @@
                 "name": "Bridal Party Make-up",
                 "price": "130€ pro Person",
                 "duration": "ca. 1 Stunde pro Person",
-                "description": "Make-up für Brautjungfern, Trauzeuginnen oder Gäste – harmonisch abgestimmt.",
-                "details": "",
+                "description": "Harmonisch abgestimmtes Make-up für Ihr Gefolge.",
+                "details": "Dieses Paket umfasst das professionelle Styling für Brautjungfern, Familie oder weitere Begleitpersonen am Hochzeitstag.\n\n✔️ Individuell abgestimmtes Make-up für jede Person\n✔️ Anpassung an Hauttyp, Wünsche und Anlass\n✔️ Natürliches bis leicht intensiveres Finish (kein Full Glam)\n✔️ Schnelles, effizientes Arbeiten für einen reibungslosen Ablauf\n✔️ Langanhaltende Produkte für den gesamten Tag\n\nDas Styling der Bridal Party wird zeitlich optimal geplant, um einen entspannten und strukturierten Ablauf am Hochzeitstag zu gewährleisten.\n\nBitte beachten Sie, dass ausreichend Zeit eingeplant werden muss – die Anzahl der Personen beeinflusst die Dauer sowie die Organisation vor Ort.\n\nFür größere Gruppen kann ein zusätzliches Team organisiert werden",
                 "img": ""
             },
             {
@@ -60,8 +60,8 @@
                 "name": "Signature Touch-Up / Evening Glam",
                 "price": "300€",
                 "duration": "individuell",
-                "description": "Luxusservice für Touch-ups am Tag oder Evening-Glam-Transformation.",
-                "details": "",
+                "description": "Exklusiver All-Day-Service für ein durchgehend makelloses Make-up, inklusive Touch-ups und optionaler Transformation für den Abend.",
+                "details": "Exklusiver Service für höchste Ansprüche – perfekt für Bräute, Events oder besondere Anlässe, bei denen ein makelloses Erscheinungsbild den ganzen Tag über garantiert sein soll.\n✔️ Persönliche Betreuung vor Ort während des Events\n✔️ Regelmäßige Touch-ups (Teint, Lippen, Augen) für ein dauerhaft perfektes Finish\n✔️ Anpassungen des Looks im Laufe des Tages\n✔️ Optional: komplette Umwandlung in einen Abend- oder Glam-Look\n✔️ Individuelle Planung abgestimmt auf Ihren Zeitplan und Ablauf\nDieser Service garantiert Ihnen ein durchgehend frisches, perfektes Erscheinungsbild – ganz ohne Stress oder Nachbessern in Eigenregie.\nDie genaue Planung sowie Dauer und Umfang werden individuell im Voraus abgestimmt",
                 "img": ""
             },
             {
@@ -69,8 +69,8 @@
                 "name": "Half Set Day",
                 "price": "650€",
                 "duration": "halbtägig",
-                "description": "Halbtägige Set-Begleitung mit kontinuierlichen Touch-ups.",
-                "details": "",
+                "description": "Halbtags-Premium-Begleitung am Set, makelloses Make-up in jeder Szene, entspannt, elegant und perfekt auf Licht und Kamera abgestimmt.",
+                "details": "Exklusiver Make-up-Service für anspruchsvolle Produktionen – perfekt für Fotoshootings, Werbeaufnahmen oder Filmsets, bei denen ein makelloses Erscheinungsbild in jeder Szene entscheidend ist.\n\n✔️ Persönliche, kontinuierliche Betreuung am Set während eines halben Tages\n✔️ Präzise Touch-ups von Teint, Augen und Lippen für ein dauerhaft perfektes Finish\n✔️ Flexible Anpassungen des Looks in Echtzeit, abgestimmt auf Licht, Kameraeinstellungen und Szenenwechsel\n✔️ Optionale Mini-Transformationen für unterschiedliche Looks innerhalb des Drehtags\n✔️ Individuell abgestimmtes Briefing und Zeitplanung, um den Ablauf optimal zu gestalten\n\nDieser Premium-Service garantiert, dass Ihr Make-up in jeder Einstellung sitzt – entspannt, elegant und makellos.",
                 "img": ""
             },
             {
@@ -78,7 +78,7 @@
                 "name": "Full Set Day",
                 "price": "1.400€",
                 "duration": "ganztägig",
-                "description": "Ganztägige Set-Begleitung – perfektes Ergebnis in jeder Szene.",
+                "description": "Full-Day-Premium-Begleitung am Set – makelloses Make-up den ganzen Tag über, entspannt, elegant und perfekt auf Licht, Kamera und Szenenwechsel abgestimmt.",
                 "details": "",
                 "img": ""
             }
@@ -88,83 +88,83 @@
         "packages": [
             {
                 "id": "classic-makeup",
-                "name": "Classic Makeup",
-                "price": "€120",
+                "name": "Classic Make-up",
+                "price": "120€",
                 "duration": "approx. 1 hour",
-                "description": "Simple, elegant makeup — ideal for shoots, events, or business.",
-                "details": "Test bez slike",
+                "description": "Timeless, elegant make-up for shootings, events, or business.",
+                "details": "This package includes a complete make-up, ideal for everyday, special occasions, or evening events.\n\n✔️ Skin preparation (cleansing & care)\n✔️ Foundation suited to your skin type\n✔️ Concealer, contouring & bronzer\n✔️ Blush & highlighter\n✔️ Eyebrow styling\n✔️ Eye make-up (natural to slightly intense)\n✔️ Mascara or natural lashes\n✔️ Lips (color or gloss as desired)\n✔️ Setting for long-lasting hold\n\nSince every face is unique, the look is individually tailored to your facial features, skin tone, and preferences.\n\nFor specific ideas or detailed consultation, prior arrangement is recommended.",
                 "img": ""
             },
             {
                 "id": "glam-makeup",
-                "name": "Glam Makeup",
-                "price": "€160",
+                "name": "Glam Make-up",
+                "price": "160€",
                 "duration": "approx. 1.5 hours",
-                "description": "Intense glam look focusing on eyes, contour, and a flawless finish.",
-                "details": "",
+                "description": "Intense, striking look with focus on eyes and flawless skin.",
+                "details": "This package offers an intense, expressive make-up for special occasions, events, or photoshoots with a glamorous finish.\n\n✔️ Intensive skin preparation for an even, radiant finish\n✔️ Full-coverage foundation & perfecting base\n✔️ Precise contouring & highlighting for defined features\n✔️ Dramatic eye make-up (Smokey Eyes or Cut Crease possible)\n✔️ High-quality false lashes for maximum impact\n✔️ Perfectly shaped eyebrows\n✔️ Lips with intense color or gloss\n✔️ Long-lasting setting for a flawless look\n\nThe focus is on a striking, glamorous result with maximum durability and perfection.  \nEvery face is unique, so the look is customized to your preferences, facial features, and occasion.  \nFor exact ideas and detailed consultation, prior arrangement is recommended.",
                 "img": ""
             },
             {
                 "id": "bridal-classic",
-                "name": "Classic Bridal Makeup",
-                "price": "€260",
+                "name": "Classic Bridal Make-up",
+                "price": "260€",
                 "duration": "approx. 2 hours",
-                "description": "Elegant, long-lasting bridal look including skin prep and individual lashes.",
-                "details": "",
+                "description": "Elegant, highly long-lasting look",
+                "details": "This package offers a timeless, elegant bridal make-up focusing on naturalness, freshness, and long-lasting perfection – ideal for your big day.\n\n✔️ Intensive skin preparation for smooth, radiant skin\n✔️ Light to medium coverage foundation for a natural finish\n✔️ Gentle contouring & highlighting to enhance your features\n✔️ Natural, harmonious eye make-up\n✔️ Subtle, suitable false lashes (optional)\n✔️ Perfectly defined eyebrows\n✔️ Lips in natural, long-lasting shades\n✔️ Professional setting for maximum durability (tear- & photo-proof)\n\nThe look is designed to enhance your natural beauty and ensure you look perfect in real life and in photos.  \nEvery face is unique, so make-up is individually tailored to your skin type, preferences, and wedding style.  \nPrior consultation and a trial appointment are recommended to ensure a perfect result on the wedding day.",
                 "img": ""
             },
             {
                 "id": "bridal-glam",
-                "name": "Glam Bridal Makeup",
-                "price": "€300",
+                "name": "Glam Bridal Make-up",
+                "price": "300€",
                 "duration": "approx. 2–2.5 hours",
-                "description": "Luxurious premium bridal look with intense eyes and perfect finish.",
-                "details": "",
+                "description": "Premium bridal look for maximum impact.",
+                "details": "This package offers a more intense, elegant bridal make-up with added definition and expression – perfect for brides who want a slightly stronger look than the classic bridal make-up.\n\n✔️ Intensive skin preparation for smooth, radiant skin\n✔️ Medium to higher coverage for an even, perfected complexion\n✔️ Defined contouring & highlighting for more facial structure\n✔️ More expressive eye make-up (e.g., soft glam or subtle smokey eye)\n✔️ Denser yet elegant false lashes\n✔️ Precisely styled eyebrows\n✔️ Lips with stronger color or more defined finish\n✔️ Professional setting for maximum durability (tear- & photo-proof)\n\nThe look remains bridal-appropriate and elegant but appears more intense and expressive than the classic bridal make-up.  \nEvery bride is unique, so make-up is tailored to your wishes, facial features, and style.  \nA trial appointment and prior consultation are recommended to ensure a perfect result on the wedding day.",
                 "img": ""
             },
             {
                 "id": "bridal-trial",
-                "name": "Bridal Makeup Trial",
-                "price": "€200",
+                "name": "Bridal Make-up Trial",
+                "price": "200€",
                 "duration": "approx. 1.5 hours",
-                "description": "Trial styling with consultation and analysis tailored to dress and concept.",
-                "details": "",
+                "description": "Comprehensive trial and analysis. We take time to explore different directions and perfectly match the look to your dress, hair, and personality.",
+                "details": "The trial appointment is designed to develop and finalize your perfect bridal make-up in advance.\n\n✔️ Detailed consultation on style, wishes, and wedding concept\n✔️ Analysis of your skin type and suitable product selection\n✔️ Creation of an individual make-up look (Classic or Glam possible)\n✔️ Adjustment of intensity, colors, and techniques according to your preferences\n✔️ Testing for durability and wear\n✔️ Discussion of all wedding day details\n\nThe goal is to eliminate uncertainties on the wedding day and guarantee a perfectly tailored result.  \nThe final look is documented for precise execution on the wedding day.  \nA trial appointment is strongly recommended to avoid stress and ensure smooth styling on the wedding day.",
                 "img": ""
             },
             {
                 "id": "bridal-party",
-                "name": "Bridal Party Makeup",
-                "price": "€130 per person",
+                "name": "Bridal Party Make-up",
+                "price": "130€ per person",
                 "duration": "approx. 1 hour per person",
-                "description": "Makeup for bridesmaids or guests, harmonized with the wedding concept.",
-                "details": "",
+                "description": "Harmoniously coordinated make-up for your bridal party.",
+                "details": "This package includes professional styling for bridesmaids, family, or other accompanying persons on the wedding day.\n\n✔️ Individually tailored make-up for each person\n✔️ Adjustment to skin type, preferences, and occasion\n✔️ Natural to slightly intensified finish (no full glam)\n✔️ Fast, efficient work for smooth timing\n✔️ Long-lasting products for the entire day\n\nBridal party styling is scheduled to ensure a relaxed and structured workflow on the wedding day.  \nPlease note that sufficient time must be allocated – number of persons affects duration and on-site organization.  \nFor larger groups, an additional team can be arranged.",
                 "img": ""
             },
             {
                 "id": "signature-touch-up",
                 "name": "Signature Touch-Up / Evening Glam",
-                "price": "€300",
+                "price": "300€",
                 "duration": "custom",
-                "description": "Luxury touch-ups during the day or a complete evening glam transformation.",
-                "details": "",
+                "description": "Exclusive all-day service for continuously flawless make-up, including touch-ups and optional evening transformation.",
+                "details": "Exclusive service for highest standards – perfect for brides, events, or special occasions, guaranteeing a flawless appearance throughout the day.\n\n✔️ Personal on-site support during the event\n✔️ Regular touch-ups (complexion, lips, eyes) for a lasting perfect finish\n✔️ Adjustments of the look throughout the day\n✔️ Optional: full transformation into an evening or glam look\n✔️ Individual planning tailored to your schedule and workflow\n\nThis service ensures a fresh, perfect appearance throughout – without stress or self-corrections.  \nExact planning, duration, and scope are coordinated individually in advance.",
                 "img": ""
             },
             {
                 "id": "half-set-day",
                 "name": "Half Set Day",
-                "price": "€650",
+                "price": "650€",
                 "duration": "half-day",
-                "description": "Half-day set support with continuous touch-ups.",
-                "details": "",
+                "description": "Half-day premium on-set support, flawless make-up in every scene, relaxed, elegant, and perfectly coordinated with light and camera.",
+                "details": "Exclusive make-up service for demanding productions – perfect for photoshoots, commercial shoots, or film sets, where flawless appearance in every scene is crucial.\n\n✔️ Personal, continuous on-set support during half a day\n✔️ Precise touch-ups for complexion, eyes, and lips to guarantee a lasting perfect finish\n✔️ Flexible real-time adjustments of the look, aligned with lighting, camera settings, and scene changes\n✔️ Optional mini-transformations for different looks during the shoot\n✔️ Individually tailored briefing and schedule to optimize workflow\n\nThis premium service ensures your make-up looks perfect in every shot – relaxed, elegant, and flawless.",
                 "img": ""
             },
             {
                 "id": "full-set-day",
                 "name": "Full Set Day",
-                "price": "€1,400",
+                "price": "1.400€",
                 "duration": "full-day",
-                "description": "Full-day set support ensuring perfection in every scene.",
-                "details": "",
+                "description": "Full-day premium on-set support – flawless make-up all day, relaxed, elegant, and perfectly coordinated with lighting, camera, and scene changes.",
+                "details": "Exclusive make-up service for demanding shootings, commercial productions, or film sets, where flawless appearance throughout the full day is essential.\n\n✔️ Personal, continuous on-set support throughout the entire day\n✔️ Precise touch-ups for complexion, eyes, and lips to guarantee a lasting perfect finish\n✔️ Flexible real-time adjustments of the look, aligned with lighting, camera settings, and scene changes\n✔️ Optional mini-transformations for different looks during the day\n✔️ Individually tailored briefing and schedule to optimize workflow, scenes, and shooting priorities\n\nThis premium service ensures your make-up remains flawless all day – relaxed, elegant, and absolutely reliable without any need for self-corrections.",
                 "img": ""
             }
         ]
@@ -173,83 +173,83 @@
         "packages": [
             {
                 "id": "classic-makeup",
-                "name": "Klasični make-up",
+                "name": "Klasični Make-up",
                 "price": "120€",
                 "duration": "oko 1 sat",
-                "description": "Jednostavan i elegantan make-up — idealan za snimanja, događaje ili posao.",
-                "details": "Test sa neispravnim linkom",
-                "img": "images/ero-image.webp"
+                "description": "Bezvremenski, elegantni make-up za snimanja, događaje ili poslovne prilike.",
+                "details": "Ovaj paket uključuje kompletan make-up, idealan za svakodnevne prilike, posebne događaje ili večernja izlaska.\n\n✔️ Priprema kože (čišćenje i njega)\n✔️ Podloga (foundation) prilagođena vašem tipu kože\n✔️ Korektor, konturisanje i bronzer\n✔️ Rumenilo i highlighter\n✔️ Oblikovanje obrva\n✔️ Make-up za oči (prirodan do blago intenzivan)\n✔️ Maskara ili prirodne trepavice\n✔️ Usne (boja ili sjaj po želji)\n✔️ Fiksiranje za dugotrajan efekat\n\nPošto je svako lice jedinstveno, izgled se individualno prilagođava vašim crtama lica, tonu kože i željama.\n\nZa specifične ideje ili detaljnu konsultaciju, preporučuje se prethodni dogovor.",
+                "img": ""
             },
             {
                 "id": "glam-makeup",
-                "name": "Glam make-up",
+                "name": "Glam Make-up",
                 "price": "160€",
                 "duration": "oko 1,5 sata",
-                "description": "Intenzivan glam look sa fokusom na oči, konture i besprijekoran završetak.",
-                "details": "",
+                "description": "Intenzivan, upečatljiv izgled sa fokusom na oči i besprijekornu kožu.",
+                "details": "Ovaj paket nudi intenzivan, izražajan make-up za posebne prilike, događaje ili fotosnimanja sa glamuroznim finišem.\n\n✔️ Intenzivna priprema kože za ravnomjeran, blistav izgled\n✔️ Full-coverage podloga i savršena baza\n✔️ Precizno konturisanje i isticanje za definisane crte lica\n✔️ Dramatičan make-up za oči (mogući smokey eyes ili cut crease)\n✔️ Kvalitetne umjetne trepavice za maksimalni efekat\n✔️ Savršeno oblikovane obrve\n✔️ Usne sa intenzivnom bojom ili sjajem\n✔️ Dugotrajno fiksiranje za besprijekoran izgled\n\nFokus je na upečatljivom, glamuroznom rezultatu sa maksimalnom dugotrajnošću i perfekcijom.  \nPošto je svako lice jedinstveno, izgled se prilagođava vašim željama, crtama lica i prilici.  \nZa precizne ideje i detaljnu konsultaciju, preporučuje se prethodni dogovor.",
                 "img": ""
             },
             {
                 "id": "bridal-classic",
-                "name": "Klasični bridal make-up",
+                "name": "Klasični Bridal Make-up",
                 "price": "260€",
                 "duration": "oko 2 sata",
-                "description": "Elegantan, dugotrajan bridal look uključujući pripremu kože i individualne trepavice.",
-                "details": "",
+                "description": "Elegantni, dugotrajni izgled",
+                "details": "Ovaj paket nudi bezvremenski, elegantni bridal make-up sa fokusom na prirodnost, svježinu i dugotrajnu perfekciju – idealno za vaš veliki dan.\n\n✔️ Intenzivna priprema kože za glatku i blistavu put\n✔️ Lagana do srednja pokrivnost za prirodan finiš\n✔️ Nježno konturisanje i isticanje crta lica\n✔️ Prirodan i skladan make-up za oči\n✔️ Diskretne, prilagođene umjetne trepavice (opciono)\n✔️ Savršeno definisane obrve\n✔️ Usne u prirodnim, dugotrajim nijansama\n✔️ Profesionalno fiksiranje za maksimalnu dugotrajnost (otporno na suze i fotografije)\n\nIzgled je dizajniran da naglasi vašu prirodnu ljepotu i da savršeno izgleda uživo i na fotografijama.  \nPošto je svako lice jedinstveno, make-up se individualno prilagođava vašem tipu kože, željama i stilu vjenčanja.  \nPrethodna konsultacija i probni termin se preporučuju za savršen rezultat na dan vjenčanja.",
                 "img": ""
             },
             {
                 "id": "bridal-glam",
-                "name": "Glam bridal make-up",
+                "name": "Glam Bridal Make-up",
                 "price": "300€",
                 "duration": "oko 2–2,5 sata",
-                "description": "Luksuzni premium bridal look sa naglašenim očima i savršenim finišem.",
-                "details": "",
+                "description": "Premium bridal izgled za maksimalni efekat.",
+                "details": "Ovaj paket nudi intenzivniji, elegantni bridal make-up sa više definicije i izražajnosti – idealan za mlade koje žele jači izgled od klasičnog bridal make-up-a.\n\n✔️ Intenzivna priprema kože za glatku i blistavu put\n✔️ Srednja do jača pokrivnost za savršen ten\n✔️ Definisanije konturisanje i isticanje za više strukture lica\n✔️ Izrazajniji make-up za oči (npr. soft glam ili blago smokey eye)\n✔️ Gusto, ali elegantno postavljene umjetne trepavice\n✔️ Precizno stilizovane obrve\n✔️ Usne sa intenzivnijom bojom ili definisanim finišem\n✔️ Profesionalno fiksiranje za maksimalnu dugotrajnost (otporno na suze i fotografije)\n\nIzgled ostaje bridal-prikladan i elegantan, ali djeluje intenzivnije i izražajnije od klasičnog bridal make-up-a.  \nSvaka mlada je jedinstvena, make-up se prilagođava vašim željama, crtama lica i stilu.  \nProbni termin i prethodna konsultacija se preporučuju za savršen rezultat na dan vjenčanja.",
                 "img": ""
             },
             {
                 "id": "bridal-trial",
-                "name": "Proba bridal make-upa",
+                "name": "Probni Termin Bridal Make-up",
                 "price": "200€",
                 "duration": "oko 1,5 sata",
-                "description": "Probni styling sa konsultacijom, prilagođen haljini i konceptu.",
-                "details": "",
+                "description": "Sveobuhvatni probni styling i analiza. Vrijeme je posvećeno isprobavanju različitih opcija i savršenom usklađivanju izgleda s vašom haljinom, kosom i ličnošću.",
+                "details": "Probni termin služi za zajedničko kreiranje i finaliziranje vašeg savršenog bridal make-up-a unaprijed.\n\n✔️ Detaljna konsultacija o stilu, željama i konceptu vjenčanja\n✔️ Analiza vašeg tipa kože i izbor odgovarajućih proizvoda\n✔️ Kreiranje individualnog make-up izgleda (Classic ili Glam moguće)\n✔️ Prilagođavanje intenziteta, boja i tehnika prema vašim željama\n✔️ Test dugotrajnosti i osjećaja nošenja\n✔️ Razgovor o svim detaljima za dan vjenčanja\n\nCilj je ukloniti nesigurnost na dan vjenčanja i garantovati savršeno usklađen rezultat.  \nFinalni izgled se dokumentuje za preciznu primjenu na dan vjenčanja.  \nProbni termin se toplo preporučuje kako bi se izbjegao stres i osigurao besprijekoran styling.",
                 "img": ""
             },
             {
                 "id": "bridal-party",
-                "name": "Bridal party make-up",
+                "name": "Bridal Party Make-up",
                 "price": "130€ po osobi",
                 "duration": "oko 1 sat po osobi",
-                "description": "Make-up za kume ili goste, usklađen s vjenčanim konceptom.",
-                "details": "",
+                "description": "Usklađeni make-up za vašu bridal party.",
+                "details": "Ovaj paket uključuje profesionalni styling za djeveruše, porodicu ili druge pratioce mlade na dan vjenčanja.\n\n✔️ Individualno prilagođen make-up za svaku osobu\n✔️ Prilagodba tipu kože, željama i prilici\n✔️ Prirodan do blago intenzivan finiš (nije full glam)\n✔️ Brz i efikasan rad za glatko odvijanje događaja\n✔️ Dugotrajni proizvodi za cijeli dan\n\nStyling bridal party se planira tako da osigura opušten i strukturiran tok događaja.  \nNapomena: potrebno je planirati dovoljno vremena – broj osoba utiče na trajanje i organizaciju na licu mjesta.  \nZa veće grupe može se organizovati dodatni tim.",
                 "img": ""
             },
             {
                 "id": "signature-touch-up",
-                "name": "Signature touch-up / Evening glam",
+                "name": "Signature Touch-Up / Evening Glam",
                 "price": "300€",
-                "duration": "po potrebi",
-                "description": "Luksuzni touch-up tokom dana ili kompletna evening glam transformacija.",
-                "details": "",
+                "duration": "po dogovoru",
+                "description": "Ekskluzivni all-day servis za kontinuirano besprijekoran make-up, uključujući touch-up i opcionalnu transformaciju za večer.",
+                "details": "Ekskluzivni servis za najviše standarde – savršeno za mlade, događaje ili posebne prilike, garantujući besprijekoran izgled tokom cijelog dana.\n\n✔️ Lična podrška na licu mjesta tokom događaja\n✔️ Redovni touch-upi (ten, usne, oči) za dugotrajan savršen finiš\n✔️ Prilagodbe izgleda tokom dana\n✔️ Opcionalno: kompletna transformacija u večernji ili glam izgled\n✔️ Individualno planiranje u skladu s vašim rasporedom i tokom događaja\n\nOvaj servis osigurava svjež i savršen izgled tokom cijelog dana – bez stresa i samostalnih korekcija.  \nTačno planiranje, trajanje i obim se dogovaraju individualno unaprijed.",
                 "img": ""
             },
             {
                 "id": "half-set-day",
-                "name": "Half set day",
+                "name": "Half Set Day",
                 "price": "650€",
-                "duration": "poludnevno",
-                "description": "Poludnevna pratnja na setu uz kontinuirane korekcije.",
-                "details": "",
+                "duration": "poludnevni",
+                "description": "Poludnevna premium podrška na setu, besprijekoran make-up u svakoj sceni, opušten, elegantan i savršeno usklađen sa svjetlom i kamerom.",
+                "details": "Ekskluzivni make-up servis za zahtjevne produkcije – idealno za fotosnimanja, komercijalne snimke ili filmske setove, gdje je besprijekoran izgled u svakoj sceni ključan.\n\n✔️ Lična, kontinuirana podrška na setu tokom poludana\n✔️ Precizni touch-upi za ten, oči i usne za dugotrajan savršen finiš\n✔️ Fleksibilne prilagodbe izgleda u realnom vremenu, usklađene sa svjetlom, kamerom i scenama\n✔️ Opcionalne mini-transformacije za različite lookove tokom snimanja\n✔️ Individualno prilagođeno briefiranje i plan rasporeda za optimalan tok\n\nOvaj premium servis osigurava da vaš make-up izgleda savršeno u svakom kadru – opušteno, elegantno i besprijekorno.",
                 "img": ""
             },
             {
                 "id": "full-set-day",
-                "name": "Full set day",
+                "name": "Full Set Day",
                 "price": "1.400€",
-                "duration": "cjelodnevno",
-                "description": "Cjelodnevna pratnja na setu — savršen rezultat u svakoj sceni.",
-                "details": "",
+                "duration": "cjelodnevni",
+                "description": "Cjelodnevna premium podrška na setu – besprijekoran make-up tokom cijelog dana, opušten, elegantan i savršeno usklađen sa svjetlom, kamerom i scenama.",
+                "details": "Ekskluzivni make-up servis za zahtjevna snimanja, komercijalne produkcije ili filmske setove, gdje je besprijekoran izgled tokom cijelog dana neophodan.\n\n✔️ Lična, kontinuirana podrška na setu tokom cijelog dana\n✔️ Precizni touch-upi za ten, oči i usne za dugotrajan savršen finiš\n✔️ Fleksibilne prilagodbe izgleda u realnom vremenu, usklađene sa svjetlom, kamerom i scenama\n✔️ Opcionalne mini-transformacije za različite lookove tokom dana\n✔️ Individualno prilagođeno briefiranje i plan rasporeda za optimalan tok, scene i prioritete snimanja\n\nOvaj premium servis osigurava da vaš make-up ostane besprijekoran cijeli dan – opušteno, elegantno i potpuno pouzdano, bez potrebe za samostalnim korekcijama.",
                 "img": ""
             }
         ]
