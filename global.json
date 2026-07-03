@@ -51,7 +51,7 @@
             "alertSucces": "Ihre Reservierung wurde erfolgreich gesendet! Wir melden uns bald.",
             "emailJSCErr": "Fehler beim Senden:",
             "alertErr": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
-            "extraBtn": "Mher"
+            "extraBtn": "Mehr"
         },
         "contact": {
             "title": "Kontaktieren Sie mich",
@@ -85,6 +85,23 @@
                 "text": "Make-up ist für mich ein Werkzeug, das die Persönlichkeit verstärkt. Ich arbeite mit den Gesichtern meiner Kundinnen, nicht gegen sie. Das Ergebnis: authentisch, tragbar und aus jeder Perspektive überzeugend. Wer mich bucht, bekommt mehr als Make-up, er bekommt ein sicheres, hochwertiges Ergebnis, das Selbstvertrauen stärkt und Eindruck hinterlässt.",
                 "image": "images/hero-image-phil.webp"
             }
+        },
+        "portfolio": {
+            "title": "Portfolio",
+            "loading": "Lade Bilder...",
+            "filterAll": "Alle",
+            "Victory_Autobiography_Viktoriya_Zayika": "Victory Autobiography Viktoriya Zayika",
+            "YAGU": "YAGU",
+            "Urban_Lights": "Urban Lights",
+            "Short_Movie_Just_Thoughts": "Short Movie Just Thoughts",
+            "Shooting_Retreat": "Shooting Retreat",
+            "Metropolis": "Metropolis",
+            "FW_Nuernberg_2025": "FW Nürnberg 2025",
+            "Feminine_Force": "Feminine Force",
+            "Elemental_Kin_Scorpio_Jin_Magazine": "Elemental Kin Scorpio Jin Magazine",
+            "Delicate_Force_Seline_Magazine": "Delicate Force Seline Magazine",
+            "Bridal_Make-Up": "Braut Make-Up",
+            "AMD_Show_2025_MAN_Truck_Forum": "AMD Show 2025 MAN Truck Forum"
         }
     },
     "en": {
@@ -173,6 +190,23 @@
                 "text": "Make-up is a tool for me that enhances personality. I work with my clients’ faces, not against them. The result: authentic, wearable, and convincing from every perspective. Those who book me receive more than just make-up – they get a reliable, high-quality result that boosts confidence and leaves a lasting impression.",
                 "image": "/images/hero-image-phil.webp"
             }
+        },
+        "portfolio": {
+            "title": "Portfolio",
+            "loading": "Loading images...",
+            "filterAll": "All",
+            "Victory_Autobiography_Viktoriya_Zayika": "Victory Autobiography Viktoriya Zayika",
+            "YAGU": "YAGU",
+            "Urban_Lights": "Urban Lights",
+            "Short_Movie_Just_Thoughts": "Short Movie Just Thoughts",
+            "Shooting_Retreat": "Shooting Retreat",
+            "Metropolis": "Metropolis",
+            "FW_Nuernberg_2025": "FW Nürnberg 2025",
+            "Feminine_Force": "Feminine Force",
+            "Elemental_Kin_Scorpio_Jin_Magazine": "Elemental Kin Scorpio Jin Magazine",
+            "Delicate_Force_Seline_Magazine": "Delicate Force Seline Magazine",
+            "Bridal_Make-Up": "Bridal Make-Up",
+            "AMD_Show_2025_MAN_Truck_Forum": "AMD Show 2025 MAN Truck Forum"
         }
     },
     "exyu": {
@@ -251,7 +285,7 @@
             },
             "AboutMe2": {
                 "title": "O meni",
-                "subtitle": "Baškaluci",
+                "subtitle": "Moje Specijalnosti",
                 "text": "Radim s najrazličitijim tipovima kože, oblicima lica i zahtjevima te sam razvila siguran osjećaj za stilove – od prirodno čistih do izražajnih editorial lookova. Higijena, visokokvalitetni proizvodi i smirena, profesionalna radna metoda za mene su standard. Svaka rezervacija garantuje rezultat koji uvjerava: efikasan, precizan u detaljima i tačno pogođen.",
                 "image": "/images/hero-image-exp.webp"
             },
@@ -261,6 +295,23 @@
                 "text": "Make-up je za mene alat koji pojačava ličnost. Radim s licima svojih klijentica, a ne protiv njih. Rezultat: autentično, nosivo i uvjerljivo iz svake perspektive. Ko me angažuje, dobija više od samog make-upa – dobija siguran, kvalitetan rezultat koji jača samopouzdanje i ostavlja snažan utisak.",
                 "image": "/images/hero-image-phil.webp"
             }
+        },
+        "portfolio": {
+            "title": "Portfolio",
+            "loading": "Učitavanje slika...",
+            "filterAll": "Sve",
+            "Victory_Autobiography_Viktoriya_Zayika": "Victory Autobiography Viktoriya Zayika",
+            "YAGU": "YAGU",
+            "Urban_Lights": "Urban Lights",
+            "Short_Movie_Just_Thoughts": "Short Movie Just Thoughts",
+            "Shooting_Retreat": "Shooting Retreat",
+            "Metropolis": "Metropolis",
+            "FW_Nuernberg_2025": "FW Nürnberg 2025",
+            "Feminine_Force": "Feminine Force",
+            "Elemental_Kin_Scorpio_Jin_Magazine": "Elemental Kin Scorpio Jin Magazine",
+            "Delicate_Force_Seline_Magazine": "Delicate Force Seline Magazine",
+            "Bridal_Make-Up": "Bridal Šminka",
+            "AMD_Show_2025_MAN_Truck_Forum": "AMD Show 2025 MAN Truck Forum"
         }
     }
 }
