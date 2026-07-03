@@ -25,13 +25,13 @@ let lastFocusedElement;
 const API_KEY = 'AIzaSyC0vpKBRl6jL7CzRFWU1STXJopGt4u86Io';
 const ROOT_FOLDER_ID = '1yBKwuMbTD4Qjy-UVnKtb2qigX98y8sUA';
 const CATEGORY_MAP = {
-    'YAGU': 'YAGU', 
+    'YAGI': 'YAGI', 
     'Victory_Autobiography_Viktoriya_Zayika': 'Victory_Autobiography_Viktoriya_Zayika',
     'Urban_Lights': 'Urban_Lights',
     'Short_Movie_Just_Thoughts': 'Short_Movie_Just_Thoughts',
     'Shooting_Retreat': 'Shooting_Retreat',
     'Metropolis': 'Metropolis',
-    'FW_Nürnberg_2025': 'FW_Nuernberg_2025', 
+    'FW_Nuernberg_2025': 'FW_Nuernberg_2025', 
     'Feminine_Force': 'Feminine_Force',
     'Elemental_Kin_Scorpio_Jin_Magazine': 'Elemental_Kin_Scorpio_Jin_Magazine',
     'Delicate_Force_Seline_Magazine': 'Delicate_Force_Seline_Magazine',
@@ -480,7 +480,7 @@ function renderMasonryGallery(images) {
             <div class="portfolio-filters" role="group" aria-label="Portfolio filtern">
     <button class="filter-btn active" data-filter="all" data-translate-key="portfolio.filterAll">Alle</button>
     <button class="filter-btn" data-filter="Victory_Autobiography_Viktoriya_Zayika" data-translate-key="portfolio.Victory_Autobiography_Viktoriya_Zayika">Victory Autobiography Viktoriya Zayika</button>
-    <button class="filter-btn" data-filter="YAGU" data-translate-key="portfolio.YAGU">YAGU</button>
+    <button class="filter-btn" data-filter="YAGI" data-translate-key="portfolio.YAGI">YAGI</button>
     <button class="filter-btn" data-filter="Urban_Lights" data-translate-key="portfolio.Urban_Lights">Urban Lights</button>
     <button class="filter-btn" data-filter="Short_Movie_Just_Thoughts" data-translate-key="portfolio.Short_Movie_Just_Thoughts">Short Movie Just Thoughts</button>
     <button class="filter-btn" data-filter="Shooting_Retreat" data-translate-key="portfolio.Shooting_Retreat">Shooting Retreat</button>
