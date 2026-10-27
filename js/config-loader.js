@@ -436,26 +436,16 @@ async function loadPortfolio(categoryToFilter) {
         console.error("Dyn-container nije pronađen!");
         return;
     }
-    dyn.classList.add('portfolio-view');
-    // 1. Priprema stranice (koristimo vaše funkcije)
-    loadContent();
-
-    // 2. Prikaži dinamički kontejner za portfolio
-
-
-    // 3. Učitaj slike samo ako nisu već učitane
+    dyn.classList.add('portfolio-view'); 
+    loadContent(); 
     if (allImages.length === 0) {
         dyn.innerHTML = '<h2 data-translate-key="portfolio.title">Portfolio</h2><p data-translate-key="portfolio.loading">Lade Bilder...</p>';
         await initializePortfolio();
     } else {
-        // Ako su već učitane, samo osveži filtere
+        renderMasonryGallery(allImages);
         setupFilterListeners();
-    }
-
-    // 4. Primeni filter
+    } 
     applyFilter(categoryToFilter);
-
-    // 5. Skrolijaj do vrha
     dyn.scrollIntoView({ behavior: 'smooth' });
 }
 async function initializePortfolio() {
