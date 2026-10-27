@@ -410,11 +410,22 @@ function loadModalContent(group, sectionKey) {
         heroOff(false);
     } catch (err) { console.error("Greška pri učitavanju sadržaja:", err); }
 }
+function closeHbMeni() {
+    const hbMeni   = document.getElementById("main-navigation");
+    const hbButton = document.getElementById("navIcon");
+    const hbAbout  = document.getElementById("kontakt");
+    if (hbMeni && hbMeni.classList.contains("responsive")) {
+        hbMeni.classList.remove("responsive");
+        hbAbout.style.display = 'none';
+        hbButton.setAttribute("aria-expanded", "false");
+        hbButton.setAttribute("aria-label", "Menü öffnen");
+    }
+}
 function loadContent() {
     try {
         dyn.innerHTML = "";
         hbReset();
-        togleHbMeni();
+        closeHbMeni();   // togleHbMeni();
         heroOff();
         dyn.style.display = "grid";
         dyn.style.opacity = 1;
@@ -555,22 +566,30 @@ function applyFilter(filter) {
             item.style.display = 'none';
         }
     });
-    filterButtons.forEach(btn => {
+    document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.filter === filter);
     });
+    //filterButtons.forEach(btn => {
+      //  btn.classList.toggle('active', btn.dataset.filter === filter);
+    //});
 }
 function setupFilterListeners() {
-    filterButtons.forEach(btn => {
-        // Ukloni postojeće listenere da ne bi bili duplirani
-        btn.replaceWith(btn.cloneNode(true));
-    });
-    // Dodaj nove listenere
     document.querySelectorAll('.filter-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            applyFilter(btn.dataset.filter);
-        });
+        btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
     });
 }
+// function setupFilterListeners() {
+//     filterButtons.forEach(btn => {
+//         // Ukloni postojeće listenere da ne bi bili duplirani
+//         btn.replaceWith(btn.cloneNode(true));
+//     });
+//     // Dodaj nove listenere
+//     document.querySelectorAll('.filter-btn').forEach(btn => {
+//         btn.addEventListener('click', () => {
+//             applyFilter(btn.dataset.filter);
+//         });
+//     });
+// }
 function handleFormSubmit(event) {
     event.preventDefault();
     console.log("Form submission started.");
