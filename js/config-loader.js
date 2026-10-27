@@ -524,7 +524,8 @@ function renderMasonryGallery(images) {
     document.querySelectorAll('.portfolio-item').forEach(item => {
         item.addEventListener('click', () => {
             const img = item.querySelector('img');
-            const fullImageUrl = `https://drive.google.com/uc?id=${img.src.match(/id=([^&]+)/)[1]}`;
+            const imgWidth = window.innerWidth < 768 ? 'w1000' : 'w2000';
+            const fullImageUrl = `https://lh3.googleusercontent.com/d/${img.src.match(/id=([^&]+)/)[1]}=${imgWidth}`;
             const altText = img.alt;
 
             // Popuni POSTOJEĆI modal
