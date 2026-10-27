@@ -192,6 +192,7 @@ function loadPacketContent(event) {
         const img = document.querySelector('#modal-image');
         img.src = packageimg;
         img.alt = packageId;
+        document.querySelector('#modal').classList.remove('portfolio-modal');
         showDialog('modal');
         // Fokus na naslov sekcije za bolju pristupačnost
         const heading = document.querySelector("#modal-subtitle");
@@ -358,6 +359,7 @@ function showDialog(idCall = null) {
         allModals.forEach(dialog => {
             dialog.style.display = 'none';
             dialog.removeEventListener('keydown', trapFocus);
+            dialog.classList.remove('portfolio-modal'); 
         });
         modaloverlay.style.display = 'none';
 
@@ -401,7 +403,7 @@ function loadModalContent(group, sectionKey) {
         const img = document.querySelector('#modal-image');
         img.src = section.image;
         img.alt = section.subtitle;
-
+        document.querySelector('#modal').classList.remove('portfolio-modal');
         //Aktiviraj dialog 
         showDialog('modal');
         // Fokus na naslov sekcije za bolju pristupačnost
@@ -535,8 +537,8 @@ function renderMasonryGallery(images) {
             const modalImg = document.querySelector('#modal-image');
             modalImg.src = fullImageUrl;
             modalImg.alt = altText;
-
-            // Pozovi POSTOJEĆU funkciju za prikaz moda
+            const modal = document.querySelector('#modal');
+            modal.classList.add('portfolio-modal'); 
             showDialog('modal');
         });
     });

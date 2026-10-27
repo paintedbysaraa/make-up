@@ -438,3 +438,24 @@
             column-count: 1;
         }
     }
+    .modal-container.portfolio-modal {
+        max-width: 95vw;
+        max-height: 95vh;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.95);
+    }
+
+    .modal-container.portfolio-modal > div {
+        display: none;   /* sakri prazan blockquote/cite blok */
+    }
+
+    .modal-container.portfolio-modal #modal-image {
+        max-width: 95vw;
+        max-height: 90vh;
+        width: auto;
+        height: auto;
+        border-radius: 4px;
+        place-self: center;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+        object-fit: contain;
+    }
