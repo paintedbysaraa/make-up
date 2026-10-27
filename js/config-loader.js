@@ -475,6 +475,74 @@ async function initializePortfolio() {
         if (dyn) dyn.innerHTML = '<h2>Portfolio</h2><p>Portfolio konnte nicht geladen werden.</p>';
     }
 }
+// === Portfolio lightbox ===
+let lightboxEl = null;
+let lbImages = [];
+let lbIndex = 0;
+
+function buildLightbox() {
+    if (lightboxEl) return lightboxEl;
+    lightboxEl = document.createElement('div');
+    lightboxEl.id = 'portfolio-lightbox';
+    lightboxEl.setAttribute('role', 'dialog');
+    lightboxEl.setAttribute('aria-modal', 'true');
+    lightboxEl.innerHTML = `
+        <button class="lb-close" aria-label="Zatvori">✕</button>
+        <button class="lb-prev" aria-label="Prethodna">‹</button>
+        <img class="lb-image" src="" alt="">
+        <button class="lb-next" aria-label="Sljedeća">›</button>
+        <div class="lb-counter"></div>
+    `;
+    document.body.appendChild(lightboxEl);
+
+    lightboxEl.querySelector('.lb-close').addEventListener('click', closeLightbox);
+    lightboxEl.querySelector('.lb-prev').addEventListener('click', () => navigateLightbox(-1));
+    lightboxEl.querySelector('.lb-next').addEventListener('click', () => navigateLightbox(1));
+    lightboxEl.addEventListener('click', (e) => {
+        if (e.target === lightboxEl) closeLightbox();
+    });
+    return lightboxEl;
+}
+
+function openLightbox(images, startIndex) {
+    lbImages = images;
+    lbIndex = startIndex;
+    buildLightbox();
+    renderLightboxImage();
+    lightboxEl.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', lightboxKeyHandler);
+}
+
+function closeLightbox() {
+    if (!lightboxEl) return;
+    lightboxEl.classList.remove('open');
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', lightboxKeyHandler);
+}
+
+function navigateLightbox(dir) {
+    if (lbImages.length === 0) return;
+    lbIndex = (lbIndex + dir + lbImages.length) % lbImages.length;
+    renderLightboxImage();
+}
+
+function renderLightboxImage() {
+    const img = lbImages[lbIndex];
+    const imgWidth = window.innerWidth < 768 ? 'w1200' : 'w2400';
+    const fullImageUrl = `https://lh3.googleusercontent.com/d/${img.id}=${imgWidth}`;
+    const altText = img.name.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+    const lbImg = lightboxEl.querySelector('.lb-image');
+    lbImg.src = fullImageUrl;
+    lbImg.alt = altText;
+    lightboxEl.querySelector('.lb-counter').textContent = `${lbIndex + 1} / ${lbImages.length}`;
+}
+
+function lightboxKeyHandler(e) {
+    if (e.key === 'Escape') closeLightbox();
+    else if (e.key === 'ArrowLeft') navigateLightbox(-1);
+    else if (e.key === 'ArrowRight') navigateLightbox(1);
+}
 function renderMasonryGallery(images) {
     if (!dyn) return;
     // Gradimo HTML unutar kontejnera
@@ -525,21 +593,20 @@ function renderMasonryGallery(images) {
     // Dodaj event listenere na sve slike NAKON što su dodane u DOM
     document.querySelectorAll('.portfolio-item').forEach(item => {
         item.addEventListener('click', () => {
-            const img = item.querySelector('img');
-            const imgWidth = window.innerWidth < 768 ? 'w1000' : 'w2000';
-            const fullImageUrl = `https://lh3.googleusercontent.com/d/${img.src.match(/id=([^&]+)/)[1]}=${imgWidth}`;
-            const altText = img.alt;
+            // Skupi samo VIDLJIVE slike (poštuje aktivni filter)
+            const visibleItems = Array.from(document.querySelectorAll('.portfolio-item'))
+              .filter(el => el.style.display !== 'none');
 
-            // Popuni POSTOJEĆI modal
-            document.querySelector('#modal-title').textContent = altText;
-            document.querySelector('#modal-subtitle').textContent = '';
-            document.querySelector('#modal-text').innerHTML = '';
-            const modalImg = document.querySelector('#modal-image');
-            modalImg.src = fullImageUrl;
-            modalImg.alt = altText;
-            const modal = document.querySelector('#modal');
-            modal.classList.add('portfolio-modal'); 
-            showDialog('modal');
+            const visibleImages = visibleItems.map(el => {
+                const elImg = el.querySelector('img');
+                return {
+                    id: elImg.src.match(/id=([^&]+)/)[1],
+                    name: elImg.alt
+            };
+        });
+
+        const clickedIndex = visibleItems.indexOf(item);
+        openLightbox(visibleImages, clickedIndex);
         });
     });
 }
