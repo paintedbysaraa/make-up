@@ -40,7 +40,7 @@ const CATEGORY_MAP = {
 };
 /**
  * Kreira HTML element sa zadatim atributima i sadržajem.
- * @param {string} tag - HTML tag (npr. 'div', 'button').
+ * @param {string} tag
  * @param {object} attrs - Objekat sa atributima (npr. { class: 'my-class', id: 'my-id' }).
  * @param {string} content - Sadržaj elementa (može sadržati HTML).
  * @returns {HTMLElement}
@@ -56,10 +56,6 @@ function createElement(tag, attrs = {}, content = '') {
     }
     return el;
 }
-/**
- * Sprječava fokus da napusti modal koristeći Tab i Shift+Tab.
- * Zatvara modal na pritisak tastera Escape.
- */
 function trapFocus(e) {
     const modal = e.currentTarget;
     const focusableElements = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
@@ -475,11 +471,9 @@ async function initializePortfolio() {
         if (dyn) dyn.innerHTML = '<h2>Portfolio</h2><p>Portfolio konnte nicht geladen werden.</p>';
     }
 }
-// === Portfolio lightbox ===
 let lightboxEl = null;
 let lbImages = [];
 let lbIndex = 0;
-
 function buildLightbox() {
     if (lightboxEl) return lightboxEl;
     lightboxEl = document.createElement('div');
@@ -503,7 +497,6 @@ function buildLightbox() {
     });
     return lightboxEl;
 }
-
 function openLightbox(images, startIndex) {
     lbImages = images;
     lbIndex = startIndex;
@@ -513,20 +506,17 @@ function openLightbox(images, startIndex) {
     document.body.style.overflow = 'hidden';
     document.addEventListener('keydown', lightboxKeyHandler);
 }
-
 function closeLightbox() {
     if (!lightboxEl) return;
     lightboxEl.classList.remove('open');
     document.body.style.overflow = '';
     document.removeEventListener('keydown', lightboxKeyHandler);
 }
-
 function navigateLightbox(dir) {
     if (lbImages.length === 0) return;
     lbIndex = (lbIndex + dir + lbImages.length) % lbImages.length;
     renderLightboxImage();
 }
-
 function renderLightboxImage() {
     const img = lbImages[lbIndex];
     const imgWidth = window.innerWidth < 768 ? 'w1200' : 'w2400';
@@ -537,7 +527,6 @@ function renderLightboxImage() {
     lbImg.alt = altText;
     lightboxEl.querySelector('.lb-counter').textContent = `${lbIndex + 1} / ${lbImages.length}`;
 }
-
 function lightboxKeyHandler(e) {
     if (e.key === 'Escape') closeLightbox();
     else if (e.key === 'ArrowLeft') navigateLightbox(-1);
@@ -546,25 +535,7 @@ function lightboxKeyHandler(e) {
 function renderMasonryGallery(images) {
     if (!dyn) return;
     // Gradimo HTML unutar kontejnera
-    let html = `
-            <h2 data-translate-key="portfolio.title">Portfolio</h2>
-            <div class="portfolio-filters" role="group" aria-label="Portfolio filtern">
-    <button class="filter-btn active" data-filter="all" data-translate-key="portfolio.filterAll">Alle</button>
-    <button class="filter-btn" data-filter="Victory_Autobiography_Viktoriya_Zayika" data-translate-key="portfolio.Victory_Autobiography_Viktoriya_Zayika">Victory Autobiography Viktoriya Zayika</button>
-    <button class="filter-btn" data-filter="YAGI" data-translate-key="portfolio.YAGI">YAGI</button>
-    <button class="filter-btn" data-filter="Urban_Lights" data-translate-key="portfolio.Urban_Lights">Urban Lights</button>
-    <button class="filter-btn" data-filter="Short_Movie_Just_Thoughts" data-translate-key="portfolio.Short_Movie_Just_Thoughts">Short Movie Just Thoughts</button>
-    <button class="filter-btn" data-filter="Shooting_Retreat" data-translate-key="portfolio.Shooting_Retreat">Shooting Retreat</button>
-    <button class="filter-btn" data-filter="Metropolis" data-translate-key="portfolio.Metropolis">Metropolis</button>
-    <button class="filter-btn" data-filter="FW_Nuernberg_2025" data-translate-key="portfolio.FW_Nuernberg_2025">FW Nürnberg 2025</button>
-    <button class="filter-btn" data-filter="Feminine_Force" data-translate-key="portfolio.Feminine_Force">Feminine Force</button> <!-- DODATO -->
-    <button class="filter-btn" data-filter="Elemental_Kin_Scorpio_Jin_Magazine" data-translate-key="portfolio.Elemental_Kin_Scorpio_Jin_Magazine">Elemental Kin Scorpio Jin Magazine</button>
-    <button class="filter-btn" data-filter="Delicate_Force_Seline_Magazine" data-translate-key="portfolio.Delicate_Force_Seline_Magazine">Delicate Force Seline Magazine</button>
-    <button class="filter-btn" data-filter="Bridal_Make-Up" data-translate-key="portfolio.Bridal_Make-Up">Bridal Make-Up</button>
-    <button class="filter-btn" data-filter="AMD_Show_2025_MAN_Truck_Forum" data-translate-key="portfolio.AMD_Show_2025_MAN_Truck_Forum">AMD Show 2025 MAN Truck Forum</button>
-</div>
-            <div class="portfolio-grid">
-        `;
+    let html = '<div class="portfolio-grid">';
 
     if (images.length === 0) {
         html += '<p>Keine Bilder im Portfolio gefunden.</p>';
@@ -587,7 +558,23 @@ function renderMasonryGallery(images) {
         });
     }
 
-    html += '</div>'; // Zatvori portfolio-grid
+    html += `           
+        </div>
+        <h2 data-translate-key="portfolio.title">Portfolio</h2>
+            <div class="portfolio-filters" role="group" aria-label="Portfolio filtern">
+    <button class="filter-btn active" data-filter="Victory_Autobiography_Viktoriya_Zayika" data-translate-key="portfolio.Victory_Autobiography_Viktoriya_Zayika">Victory Autobiography Viktoriya Zayika</button>
+    <button class="filter-btn" data-filter="YAGI" data-translate-key="portfolio.YAGI">YAGI</button>
+    <button class="filter-btn" data-filter="Urban_Lights" data-translate-key="portfolio.Urban_Lights">Urban Lights</button>
+    <button class="filter-btn" data-filter="Short_Movie_Just_Thoughts" data-translate-key="portfolio.Short_Movie_Just_Thoughts">Short Movie Just Thoughts</button>
+    <button class="filter-btn" data-filter="Shooting_Retreat" data-translate-key="portfolio.Shooting_Retreat">Shooting Retreat</button>
+    <button class="filter-btn" data-filter="Metropolis" data-translate-key="portfolio.Metropolis">Metropolis</button>
+    <button class="filter-btn" data-filter="FW_Nuernberg_2025" data-translate-key="portfolio.FW_Nuernberg_2025">FW Nürnberg 2025</button>
+    <button class="filter-btn" data-filter="Feminine_Force" data-translate-key="portfolio.Feminine_Force">Feminine Force</button> <!-- DODATO -->
+    <button class="filter-btn" data-filter="Elemental_Kin_Scorpio_Jin_Magazine" data-translate-key="portfolio.Elemental_Kin_Scorpio_Jin_Magazine">Elemental Kin Scorpio Jin Magazine</button>
+    <button class="filter-btn" data-filter="Delicate_Force_Seline_Magazine" data-translate-key="portfolio.Delicate_Force_Seline_Magazine">Delicate Force Seline Magazine</button>
+    <button class="filter-btn" data-filter="Bridal_Make-Up" data-translate-key="portfolio.Bridal_Make-Up">Bridal Make-Up</button>
+    <button class="filter-btn" data-filter="AMD_Show_2025_MAN_Truck_Forum" data-translate-key="portfolio.AMD_Show_2025_MAN_Truck_Forum">AMD Show 2025 MAN Truck Forum</button>
+        </div>`; // Zatvori portfolio-grid
     dyn.innerHTML = html;
 
     // Dodaj event listenere na sve slike NAKON što su dodane u DOM
@@ -638,18 +625,6 @@ function setupFilterListeners() {
         btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
     });
 }
-// function setupFilterListeners() {
-//     filterButtons.forEach(btn => {
-//         // Ukloni postojeće listenere da ne bi bili duplirani
-//         btn.replaceWith(btn.cloneNode(true));
-//     });
-//     // Dodaj nove listenere
-//     document.querySelectorAll('.filter-btn').forEach(btn => {
-//         btn.addEventListener('click', () => {
-//             applyFilter(btn.dataset.filter);
-//         });
-//     });
-// }
 function handleFormSubmit(event) {
     event.preventDefault();
     console.log("Form submission started.");
@@ -694,18 +669,11 @@ function handleFormSubmit(event) {
 }
 setLanguage(currentLanguage);
 document.addEventListener('DOMContentLoaded', () => {
-    // Činimo funkcije globalnim da je moguće pozvati iz HTML-a
     window.loadPortfolio = loadPortfolio;
     window.loadModalContent = loadModalContent;
     window.showDropDown = showDropDown;
     window.togleHbMeni = togleHbMeni;
-
-    // Inicijalizacija komponenti koje postoje na svim stranama
     initSlider();
-
-    // --- DODAVANJE EVENT LISTENERA SA PROVERAMA ---
-    // Ovo sprečava greške na stranicama gde ovi elementi ne postoje
-
     if (modaloverlay) {
         modaloverlay.addEventListener("click", () => showDialog(null));
     }
