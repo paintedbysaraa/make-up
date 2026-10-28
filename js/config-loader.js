@@ -444,7 +444,7 @@ async function loadPortfolio(categoryToFilter) {
         setupFilterListeners();
     } 
     applyFilter(categoryToFilter);
-    dyn.scrollIntoView({ behavior: 'smooth' });
+    dyn.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 async function initializePortfolio() {
     try {
